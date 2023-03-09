@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <title>Document</title>
 
   <!-- Estilos -->
@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="assets/css/elements.css">
   <link rel="stylesheet" href="assets/css/classes.css">
   <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 
   <!-- Fontes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,21 +23,58 @@
     rel="stylesheet">
 </head>
 
-<body class="main-bg">
+<body>
   <aside class="menu">
-    <section class="main-content menu-content">
+    <div class="main-content menu-content">
       <h1><a href="#">LOGO</a></h1>
       <nav>
         <ul>
-          <li><a href="#">intro</a></li>
-          <li><a href="#">top 3</a></li>
+          <li><a href="#intro">intro</a></li>
+          <li><a href="#top3">top 3</a></li>
           <li><a href="#">gallery</a></li>
           <li><a href="#">work</a></li>
           <li><a href="#">contact</a></li>
         </ul>
       </nav>
-    </section>
+    </div>
   </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="intro" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Bem vindo ao mundo web</h2>
+        <p>As linguagens de programação web são utilizadas especificamente para o desenvolvimentos das camadas de
+          apresentação e de lógica de negócio de web sites, portais e aplicações web em geral. </p>
+      </div>
+
+      <div class="intro-img">
+        <img src="assets/img/javascript.svg"
+          alt="Desenho contendo três pessoas segurando logomarcas do CSS2 HTML5 e Javascript">
+      </div>
+    </div>
+  </section>
+
+  <section id="top3" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Top 3 jobs</h2>
+      <p>
+        A área de desenvolvimento web oferece diversas possibilidades de atuação e conta com diferentes níveis em sua
+        faixa salarial. De acordo com o Guia de Salários da Trybe e do Estudo Salarial da Robert Half, uma das carreiras
+        de destaque em tecnologia é a da pessoa desenvolvedora.</p>
+      <p>
+        Segundo o levantamento, o valor do salário varia de R$ 3.100,00 — para o cargo de Desenvolvedor Front-End ou
+        Back-End Júnior — à R$ 15.750,00 — para o cargo de Desenvolvedor Front-End Sênior. Portanto, essa é uma carreira
+        promissora e com diferentes alternativas de atuação.</p>
+      <p>
+        Basicamente, desenvolvimento web significa codificar páginas para a internet. No entanto, essa tarefa vai além
+        da utilização de HTML e CSS, as ferramentas básicas para a criação de uma página estática — que apresenta
+        informações que só podem ser modificadas com a edição do código fonte.
+      </p>
+    </div>
+  </section>
+
 
 </body>
 
