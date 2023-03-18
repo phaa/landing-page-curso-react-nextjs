@@ -17,9 +17,14 @@
 }
 
 .section {
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .menu-spacing {
 	height: 65px;
+}
+
+body .full-width {
+	width: 100%;
+	flex: 1 1 100%;
 }
