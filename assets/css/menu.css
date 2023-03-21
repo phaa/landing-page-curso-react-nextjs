@@ -30,6 +30,7 @@
 	color: var(--primary-color);
 	position: relative;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 .menu ul li a::after {
