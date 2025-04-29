@@ -1,4 +1,9 @@
-# landing-page-curso-react-nextjs
-Landing page criada durante o curso de React e Nextjs 
-Referente ao curso:
-https://www.udemy.com/course/curso-de-reactjs-nextjs-completo-do-basico-ao-avancado/
+# Simple landing page
+
+<p align="center">
+  <img src="https://github.com/phaa/landing-page-curso-react-nextjs/blob/main/landing.png" width="800" />
+</p>
+
+This is pretty a simple landing page created during the front end basics class. 
+
+The main HTML tags as well as CSS are covered.
